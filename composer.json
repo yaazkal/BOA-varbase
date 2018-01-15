@@ -202,15 +202,15 @@
       "dev-8.x-4.x": "8.4.x-dev"
     },
     "installer-paths": {
-      "docroot/core": ["drupal/core"],
-      "docroot/profiles/{$name}": ["type:drupal-profile"],
-      "docroot/modules/contrib/{$name}": ["type:drupal-module"],
-      "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
-      "docroot/libraries/{$name}": ["type:drupal-library"],
+      "core": ["drupal/core"],
+      "profiles/{$name}": ["type:drupal-profile"],
+      "modules/contrib/{$name}": ["type:drupal-module"],
+      "themes/contrib/{$name}": ["type:drupal-theme"],
+      "libraries/{$name}": ["type:drupal-library"],
       "drush/contrib/{$name}": ["type:drupal-drush"]
     },
     "drupal-libraries": {
-      "library-directory": "docroot/libraries",
+      "library-directory": "libraries",
       "libraries": [
           {"name": "dropzone","package": "vardot/dropzone"},
           {"name": "blazy", "package": "vardot/blazy"},
