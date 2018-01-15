@@ -21,7 +21,7 @@ class ScriptHandler {
    *    Drupal root path.
    */
   protected static function getDrupalRoot($project_root) {
-    return $project_root . '/docroot';
+    return $project_root;
   }
 
   /**
